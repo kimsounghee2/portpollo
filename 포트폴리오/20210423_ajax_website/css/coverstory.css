@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+.coverstory{width: 100%; height: auto;}
+.coverstory:after{content: ""; display: block; clear: both;}
+/* 사진 이렇게 그냥 나열하는거면 float:left밖에 못씀, 그러려면 :after해줘야함 */
+.coverstory div{ float: left; width: 25%; height: 400px;
+    background-size: cover; background-position: center center; background-repeat: no-repeat;
+}
+.coverstory div:nth-child(1){background-image: url(../img/cont_05.jpg); height: 800px;}
+.coverstory div:nth-child(2){background-image: url(../img/cont_01.jpg); }
+.coverstory div:nth-child(3){background-image: url(../img/cont_10.jpg); width: 50%;}
+.coverstory div:nth-child(4){background-image: url(../img/cont_11.jpg);}
+.coverstory div:nth-child(5){background-image: url(../img/cont_02.jpg);}
+.coverstory div:nth-child(6){background-image: url(../img/cont_09.jpg);}
+.coverstory div:nth-child(7){background-image: url(../img/cont_04.jpg);}
+.coverstory div:nth-child(8){background-image: url(../img/cont_12.jpg); width: 50%; background-position: center 20%;}
+.coverstory div:nth-child(9){background-image: url(../img/cont_08.jpg);}

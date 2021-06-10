@@ -1,0 +1,7 @@
+@charset "utf-8";
+
+#blog{width: 1200px; margin: 0 auto; height: 100vh; background: #fef;}
+#blog .yap{ width: 40px; height: 40px; border-radius: 50%; background-color: #afa; border:7px inherit #ada;
+}
+#blog .yap:hover{background-color: #faa; border: 7px inherit #fdc; }
+/* zzz */

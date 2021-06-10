@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Poppins:ital,wght@1,100&display=swap');
+*{-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; font-family: 'Poppins', sans-serif;}
+html, body{margin: 0; padding: 0;}
+header, section, article, aside, main, nav, footer{display: block;}
+header:after, section:after, article:after, aside:after, main:after, nav:after, footer:after{display: block;}
+h1, h2, h3, h4, h5, h6, p{margin: 0;}
+ul, ol{margin: 0; padding: 0; list-style: none;}
+a{text-decoration: none;font-family: 'Poppins', sans-serif;}
+.clear{clear: both;}
+
+.ha{font-family: 'Hachi Maru Pop', cursive;}
+.po{font-family: 'Poppins', sans-serif;}
+
+/*header파트입니다.*/
+header{width: 100%; height: 80px;}
+header .wrap{width: 1200px; height: 100%; margin: 0 auto; padding: 0 10px; position: relative; }
+header .wrap .logo{position: absolute; left: 10px; top:50%; transform:translateY(-50%);}
+header .wrap .logo a{display: block;}
+header .wrap .logo a img{display: block; height: 176px;}
+
+
+header nav{text-align: center;}
+header nav ul{font-size: 0;float: right;}
+header nav ul li{float: left; margin: 0 15px;}
+header nav ul li a{display: block; font-size: 14px; line-height: 80px;color: #b6b6b6; position: relative; text-transform: uppercase;}
+header nav ul li:hover a{color: #111111;}
+header nav i{color: #b6b6b6;margin: 0 5px 0 0;font-size: 12px;}
+
+#res_menu{display: none;}
+
+/*footer파트입니다.*/
+footer{width: 100%;}
+footer .wrap{width: 1200px;margin: 0 auto;padding: 30px 30px;}
+footer .wrap .footer_text{text-align: center;}
+footer .wrap .footer_text p{font-size: 12px; color: #bebebe;}
+footer .wrap .footer_text span:hover{color:#000;}

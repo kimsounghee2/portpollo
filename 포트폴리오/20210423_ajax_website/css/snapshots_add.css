@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+.add_box{display: flex; flex-wrap: wrap;}
+.sn_box{ 
+    width: calc(50% - 20px); height: 300px; margin: 0 10px 20px;
+    background-size: cover; background-position: center center; 
+}
+.sn_box .dark{ width: 100%; height: 100%; background-color: rgba(0,0,0,0.5);
+    position: relative; opacity: 0;
+}
+.sn_box .dark h4{ position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+    color: #fff; font-size: 20px;
+}
+.sn_box:hover .dark{ opacity: 1; transform: opacity 0.5s;}
+
+
+
+
+
+
+
+
+
+
+
+
+

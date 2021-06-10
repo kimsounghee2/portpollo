@@ -1,0 +1,232 @@
+@charset "utf-8";
+
+@media(max-width: 1200px){
+  header .wrap .menu ul li a{margin: 0 15px;}
+  #PROILE .wrap{width: 100%;}
+  #skill .wrap{width: 100%;padding: 60px 0;}
+  #PORTFOLIO .wrap{width: 100%;}
+  #all .wrap{width: 100%;}
+  #cont_1 .wrap{width: 100%;}
+  #contact .wrap{width: 100%;}
+}
+
+@media(max-width: 1029px){
+  body.scc_none{overflow: hidden;}
+  #static_menu{display: none;}
+  #res_menu{display: block;height: 100%;}
+  #res_menu .logo{position: absolute;left: 10px;top: 10px;}
+  #res_menu .logo a{display: block;}
+  #res_menu .logo a img{height: 60px;}
+  #res_menu .res_btn{position: absolute;right: 20px;top: 20px;font-size: 24px; color: #dedede; line-height:50px; cursor: pointer;}
+/*80-15-15*/
+  #res_menu ul{position: absolute;width: 100%; height: calc(100vh - 80px); top: 80px; right: -100%;background-color: rgba(0, 0, 0, 0.85); padding: 40px 0; transition: right 0.5s;}
+  #res_menu ul.active{right: 0;}
+  #res_menu ul li{} 
+  #res_menu ul li a{display: block;line-height: 60px;color: #fff;font-size: 28px;}
+  #cont_1 .wrap .port_img{height: 400px;}
+  #cont_1 .wrap .port_img_1{height: 416px;}
+  #cont_1 .wrap .port_img_2{height: 255px;}
+  #cont_1 .wrap .port_img_3{height: 400px;}
+  #cont_1 .wrap .port_img_4{height: 400px;}
+  #skill .wrap{width: 100%;padding: 100px 0;}
+  #all .wrap article{flex-wrap: wrap;}
+  #PROILE .wrap .cont_box{width: 100%;flex-wrap: wrap;}
+ 
+}
+@media(max-width: 913px){
+  body.scc_none{overflow: hidden;}
+  #static_menu{display: none;}
+  #res_menu{display: block;height: 100%;}
+  #res_menu .logo{position: absolute;left: 10px;top: 10px;}
+  #res_menu .logo a{display: block;}
+  #res_menu .logo a img{height: 60px;}
+  #res_menu .res_btn{position: absolute;right: 20px;top: 20px;font-size: 24px; color: #dedede; line-height:50px; cursor: pointer;}
+/*80-15-15*/
+  #res_menu ul{position: absolute;width: 100%; height: calc(100vh - 80px); top: 80px; right: -100%;background-color: rgba(0, 0, 0, 0.85); padding: 40px 0; transition: right 0.5s;}
+  #res_menu ul.active{right: 0;}
+  #res_menu ul li{} 
+  #res_menu ul li a{display: block;line-height: 60px;color: #fff;font-size: 28px;}
+  #cont_1 .wrap .port_img{height: 366px;}
+  #cont_1 .wrap .port_img_1{height: 366px;}
+  #cont_1 .wrap .port_img_2{height: 255px;}
+  #cont_1 .wrap .port_img_3{height: 366px;}
+  #cont_1 .wrap .port_img_4{height: 366px;}
+  #skill .wrap{width: 100%;padding: 100px 0;}
+  #all .wrap article{flex-wrap: wrap;}
+  #PROILE .wrap .cont_box{width: 100%;flex-wrap: wrap;}
+ 
+}
+
+
+
+
+
+
+@media(max-width: 767px){
+  body.scc_none{overflow: hidden;}
+  #static_menu{display: none;}
+  #res_menu{display: block;height: 100%;}
+  #res_menu .logo{position: absolute;left: 10px;top: 10px;}
+  #res_menu .logo a{display: block;}
+  #res_menu .logo a img{height: 60px;}
+  #res_menu .res_btn{position: absolute;right: 20px;top: 20px;font-size: 24px; color: #dedede; line-height:50px; cursor: pointer;}
+/*80-15-15*/
+  #res_menu ul{position: absolute;width: 100%; height: calc(100vh - 80px); top: 80px; right: -100%;background-color: rgba(0, 0, 0, 0.85); padding: 40px 0; transition: right 0.5s;}
+  #res_menu ul.active{right: 0;}
+  #res_menu ul li{} 
+  #res_menu ul li a{display: block;line-height: 60px;color: #fff;font-size: 28px;}
+  #cont_1 .wrap .port_img{height: 281px;}
+  #cont_1 .wrap .port_img_1{height: 296px;}
+  #cont_1 .wrap .port_img_2{height: 255px;}
+  #cont_1 .wrap .port_img_3{height: 272px;}
+  #cont_1 .wrap .port_img_4{height: 293px;}
+  #skill .wrap{width: 100%;padding: 100px 0;}
+  #all .wrap article{flex-wrap: wrap;}
+  #PROILE .wrap .cont_box{width: 100%;flex-wrap: wrap;}
+ 
+}
+@media(max-width: 780px){
+  body.scc_none{overflow: hidden;}
+  #static_menu{display: none;}
+  #res_menu{display: block;height: 100%;}
+  #res_menu .logo{position: absolute;left: 10px;top: 10px;}
+  #res_menu .logo a{display: block;}
+  #res_menu .logo a img{height: 60px;}
+  #res_menu .res_btn{position: absolute;right: 20px;top: 20px;font-size: 24px; color: #dedede; line-height:50px; cursor: pointer;}
+/*80-15-15*/
+  #res_menu ul{position: absolute;width: 100%; height: calc(100vh - 80px); top: 80px; right: -100%;background-color: rgba(0, 0, 0, 0.85); padding: 40px 0; transition: right 0.5s;}
+  #res_menu ul.active{right: 0;}
+  #res_menu ul li{} 
+  #res_menu ul li a{display: block;line-height: 60px;color: #fff;font-size: 28px;}
+  #cont_1 .wrap .port_img{height: 348px;}
+  #cont_1 .wrap .port_img_1{height: 348px;}
+  #cont_1 .wrap .port_img_2{height: 255px;}
+  #cont_1 .wrap .port_img_3{height: 348px;}
+  #cont_1 .wrap .port_img_4{height: 348px;}
+  #skill .wrap{width: 100%;padding: 100px 0;}
+  #all .wrap article{flex-wrap: wrap;}
+  #PROILE .wrap .cont_box{width: 100%;flex-wrap: wrap;}
+ 
+}
+@media(max-width: 767px){
+  body.scc_none{overflow: hidden;}
+  #static_menu{display: none;}
+  #res_menu{display: block;height: 100%;}
+  #res_menu .logo{position: absolute;left: 10px;top: 10px;}
+  #res_menu .logo a{display: block;}
+  #res_menu .logo a img{height: 60px;}
+  #res_menu .res_btn{position: absolute;right: 20px;top: 20px;font-size: 24px; color: #dedede; line-height:50px; cursor: pointer;}
+/*80-15-15*/
+  #res_menu ul{position: absolute;width: 100%; height: calc(100vh - 80px); top: 80px; right: -100%;background-color: rgba(0, 0, 0, 0.85); padding: 40px 0; transition: right 0.5s;}
+  #res_menu ul.active{right: 0;}
+  #res_menu ul li{} 
+  #res_menu ul li a{display: block;line-height: 60px;color: #fff;font-size: 28px;}
+  #cont_1 .wrap .port_img{height: 200px;}
+  #cont_1 .wrap .port_img_1{height: 200px;}
+  #cont_1 .wrap .port_img_2{height: 220px;}
+  #cont_1 .wrap .port_img_3{height: 200px;}
+  #cont_1 .wrap .port_img_4{height: 293px;}
+  #skill .wrap{width: 100%;padding: 100px 0;}
+  #all .wrap article{flex-wrap: wrap;}
+  #PROILE .wrap .cont_box{width: 100%;flex-wrap: wrap;}
+ 
+}
+@media(max-width: 623px){
+  body.scc_none{overflow: hidden;}
+  #static_menu{display: none;}
+  #res_menu{display: block;height: 100%;}
+  #res_menu .logo{position: absolute;left: 10px;top: 10px;}
+  #res_menu .logo a{display: block;}
+  #res_menu .logo a img{height: 60px;}
+  #res_menu .res_btn{position: absolute;right: 20px;top: 20px;font-size: 24px; color: #dedede; line-height:50px; cursor: pointer;}
+/*80-15-15*/
+  #res_menu ul{position: absolute;width: 100%; height: calc(100vh - 80px); top: 80px; right: -100%;background-color: rgba(0, 0, 0, 0.85); padding: 40px 0; transition: right 0.5s;}
+  #res_menu ul.active{right: 0;}
+  #res_menu ul li{} 
+  #res_menu ul li a{display: block;line-height: 60px;color: #fff;font-size: 28px;}
+  #cont_1 .wrap .port_img{height: 269px;}
+  #cont_1 .wrap .port_img_1{height: 269px;}
+  #cont_1 .wrap .port_img_2{height: 412px;}
+  #cont_1 .wrap .port_img_3{height: 269px;}
+  #cont_1 .wrap .port_img_4{height: 269px;}
+  #skill .wrap{width: 100%;padding: 100px 0;}
+  #all .wrap article{flex-wrap: wrap;}
+  #PROILE .wrap .cont_box{width: 100%;flex-wrap: wrap;}
+ 
+}
+@media(max-width: 524px){
+  body.scc_none{overflow: hidden;}
+  #static_menu{display: none;}
+  #res_menu{display: block;height: 100%;}
+  #res_menu .logo{position: absolute;left: 10px;top: 10px;}
+  #res_menu .logo a{display: block;}
+  #res_menu .logo a img{height: 60px;}
+  #res_menu .res_btn{position: absolute;right: 20px;top: 20px;font-size: 24px; color: #dedede; line-height:50px; cursor: pointer;}
+/*80-15-15*/
+  #res_menu ul{position: absolute;width: 100%; height: calc(100vh - 80px); top: 80px; right: -100%;background-color: rgba(0, 0, 0, 0.85); padding: 40px 0; transition: right 0.5s;}
+  #res_menu ul.active{right: 0;}
+  #res_menu ul li{} 
+  #res_menu ul li a{display: block;line-height: 60px;color: #fff;font-size: 28px;}
+  #cont_1 .wrap .port_img{height: 194px;}
+  #cont_1 .wrap .port_img_1{height: 194px;}
+  #cont_1 .wrap .port_img_2{height: 115px;}
+  #cont_1 .wrap .port_img_3{height: 194px;}
+  #cont_1 .wrap .port_img_4{height: 194px;}
+  #skill .wrap{width: 100%;padding: 100px 0;}
+  #all .wrap article{flex-wrap: wrap;}
+  #PROILE .wrap .cont_box{width: 100%;flex-wrap: wrap;}
+ 
+}
+
+
+
+@media(max-width: 500px){
+  body.scc_none{overflow: hidden;}
+  #static_menu{display: none;}
+  #res_menu{display: block;height: 100%;}
+  #res_menu .logo{position: absolute;left: 10px;top: 10px;}
+  #res_menu .logo a{display: block;}
+  #res_menu .logo a img{height: 60px;}
+  #res_menu .res_btn{position: absolute;right: 20px;top: 20px;font-size: 24px; color: #dedede; line-height:50px; cursor: pointer;}
+/*80-15-15*/
+  #res_menu ul{position: absolute;width: 100%; height: calc(100vh - 80px); top: 80px; right: -100%;background-color: rgba(0, 0, 0, 0.85); padding: 40px 0; transition: right 0.5s;}
+  #res_menu ul.active{right: 0;}
+  #res_menu ul li{} 
+  #res_menu ul li a{display: block;line-height: 60px;color: #fff;font-size: 28px;}
+  #PROILE .wrap .cont_box{width: 100%;flex-wrap: wrap;}
+
+  #cont_1 .wrap .port_img {height: 179px;}
+
+  #cont_1 .wrap .port_img_1{height: 168px;}
+  #cont_1 .wrap .port_img_2{height: 168px;}
+  #cont_1 .wrap .port_img_3{height: 168px;}
+  #cont_1 .wrap .port_img_4{height: 168px;}
+  #cont_1 .wrap .port_txt{height: 600px;flex-wrap: nowrap;}
+  #all .wrap article{flex-wrap: wrap;}
+  #PROILE .wrap .cont_box{width: 100%;flex-wrap: wrap;}
+
+
+}
+@media(max-width: 300px){
+  body.scc_none{overflow: hidden;}
+  #static_menu{display: none;}
+  #res_menu{display: block;height: 100%;}
+  #res_menu .logo{position: absolute;left: 10px;top: 10px;}
+  #res_menu .logo a{display: block;}
+  #res_menu .logo a img{height: 60px;}
+  #res_menu .res_btn{position: absolute;right: 20px;top: 20px;font-size: 24px; color: #dedede; line-height:50px; cursor: pointer;}
+/*80-15-15*/
+  #res_menu ul{position: absolute;width: 100%; height: calc(100vh - 80px); top: 80px; right: -100%;background-color: rgba(0, 0, 0, 0.85); padding: 40px 0; transition: right 0.5s;}
+  #res_menu ul.active{right: 0;}
+  #res_menu ul li{} 
+  #res_menu ul li a{display: block;line-height: 60px;color: #fff;font-size: 28px;}
+  #PROILE .wrap .cont_box{width: 100%;flex-wrap: wrap;}
+  #cont_1 .wrap .port_img{height: 116px;}
+  #cont_1 .wrap .port_img_1{height: 100px;}
+  #cont_1 .wrap .port_img_2{height: 112px;}
+  #cont_1 .wrap .port_img_3{height: 295px;}
+  #cont_1 .wrap .port_img_4{height: 295px;}
+  #skill .wrap .title{padding: 20px 0;}
+  #PROILE .wrap .cont_box{width: 100%;flex-wrap: wrap;}
+}
+

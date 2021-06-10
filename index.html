@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- <meta http-equiv="refresh" content="2; url=./main.html"> -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>김송희 portfolio</title>
+        <link rel="stylesheet" href="./slick/slick.css">
+        <link rel="stylesheet" href="./slick/slick-theme.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/common.css">
+        <link rel="stylesheet" href="./css/res.css">
+        <script src="https://kit.fontawesome.com/4c4d8ae81b.js" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="./slick/slick.min.js"></script>
+        <script src="./js/script.js"></script>
+    </head>
+    <body>
+        <section id="loading_page">
+            <div id="animationWindow"></div>
+            <!--position:fixed; z-index:100;-->
+        </section>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/4.8.0/bodymovin.min.js"></script>
+        <script id="rendered">
+            var animData = {
+                wrapper: document.querySelector('#animationWindow'),
+                animType: 'svg',
+                loop: true,
+                prerender: true,
+                autoplay: true,
+                path: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/35984/LEGO_loader.json'
+            };
+
+            var anim = bodymovin.loadAnimation(animData);
+            anim.setSpeed(3.4);
+            //# sourceURL=pen.js
+        </script>
+        <header id="header">
+            <div class="wrap">
+                <div class="logo">
+                    <a href="#"><img src="./img/logo.png" alt="logo"></a>
+                </div>
+                <nav class="menu" id="static_menu">
+                    <ul>
+                        <li class="#">
+                            <a href="#">HOME</a>
+                        </li>
+                        <li class="PROILE_btn">
+                            <a href="#PROILE">PROILE</a>
+                        </li>
+                        <li class="skill_btn">
+                            <a href="#skill">SKILL</a>
+                        </li>
+                        <li class="PORTFOLIO_btn">
+                            <a href="#PORTFOLIO">PORTFOLIO</a>
+                        </li>
+                        <li class="contact_btn">
+                            <a href="#contact">CONTACT</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div id="res_menu">
+                    <span class="res_btn">
+                        <img src="./img/menu.png" alt="" data-text="눌러보세요">
+                    </span>
+                    <ul>
+                        <li>
+                            <a href="#">HOME</a>
+                        </li>
+                        <li>
+                            <a href="#">PROILE</a>
+                        </li>
+                        <li>
+                            <a href="#">SKILL</a>
+                        </li>
+                        <li>
+                            <a href="#">PORTFOLIO</a>
+                        </li>
+                        <li>
+                            <a href="./conteact.html">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <section id="slickSlide">
+            <div class="slider">
+                <div class="slide">
+
+                    <ul class="slideShow">
+                        <li class="slide_01"></li>
+                        <li class="slide_02"></li>
+                        <li class="slide_03"></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="PROILE">
+            <div class="wrap">
+                <div class="title">
+                    <h3 class="sa">PROILE</h3>
+                </div>
+                <div class="cont_box">
+                    <div class="img">
+                        <img src="./img/my.jpg" alt="">
+                        <p class="pa">
+                            어떠한 일을 할때 가장 중요한 것은 기본기라고 생각합니다.<br/>
+                            기본이 없으면 아무것도 할수 없고, 애매한 기본기는 항상<br/>
+                            실수를 범하곤 합니다. 트렌디함을 따라가는것 중요하고 좋지만<br/>
+                            먼저 내실을 튼튼히 다질수 있는, 기본을 할줄 아는<br/>
+                            웹 퍼블리셔가 되고 싶습니다.</p>
+                    </div>
+                    <div class="pro_list">
+                        <div class="pro_title">Profile</div>
+                        <ul class="pro_sub">
+                            <p class="pa">이름 : 김송희</p>
+                            <p class="pa">나이 : 28세 (1993.08.04)</p>
+                            <p class="pa">주소 : 서울특별 중랑구 묵동</p>
+                            <p class="pa">연락처 : 010-2123-3115</p>
+                            <p class="pa">E-mail : tushgns23@nate.com</p>
+                        </ul>
+                        <div class="pro_history">
+                            <div class="pro_title">- History</div>
+                            <ul class="pro_sub">
+                                <li class="pa">2020.01 : (주)렌다 취업, 생산직</li>
+                                <li class="pa">2020.10 : (주)렌다 퇴사</li>
+                                <li class="pa">2021.01 : 하이미디어 스마트웹&amp;콘텐츠제작 / 웹디자인, 웹퍼플리셔 수강</li>
+                                <li class="pa">2021.06 : 스마트웹&amp;콘텐츠제작 / 웹디자인, 웹퍼플리셔 과정 수료</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="skill">
+            <div class="wrap">
+                <div class="title">
+                    <h3 class="sa">SKILL</h3>
+                </div>
+                <div id="circle_bar">
+                    <div class="frame">
+                        <div class="box">
+                            <div class="cont">
+                                <div class="top">
+                                    <svg>
+                                        <circle cx="70" cy="70" r="70"/>
+                                        <circle cx="70" cy="70" r="70"/>
+                                    </svg>
+                                    <div class="num">
+                                        <h2>
+                                            <span class="count">80</span>
+                                            <span>%</span>
+                                        </h2>
+                                    </div>
+                                </div>
+                                <div class="bottom">
+                                    <h2 class="cont_text">HTML5</h2>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="box">
+                            <div class="cont">
+                                <div class="top">
+                                    <svg>
+                                        <circle cx="70" cy="70" r="70"/>
+                                        <circle cx="70" cy="70" r="70"/>
+                                    </svg>
+                                    <div class="num">
+                                        <h2>
+                                            <span class="count">80</span>
+                                            <span>%</span>
+                                        </h2>
+                                    </div>
+                                </div>
+                                <div class="bottom">
+                                    <h2 class="cont_text">CSS3</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="cont">
+                                <div class="top">
+                                    <svg>
+                                        <circle cx="70" cy="70" r="70"/>
+                                        <circle cx="70" cy="70" r="70"/>
+                                    </svg>
+                                    <div class="num">
+                                        <h2>
+                                            <span class="count">65</span>
+                                            <span>%</span>
+                                        </h2>
+                                    </div>
+                                </div>
+                                <div class="bottom">
+                                    <h2 class="cont_text">JAVASCRIPT</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="PORTFOLIO">
+            <div class="wrap">
+                <div class="title">
+                    <h3 class="sa">PORTFOLIO</h3>
+                </div>
+            </div>
+        </section>
+        <section id="cont_1">
+            <div class="wrap">
+                <div class="port_img">
+                    <div class="site_img"></div>
+                    <div class="frame_img"></div>
+                </div>
+                <div class="port_txt">
+                    <div class="mid_context">
+                        <h2 class="tit">Kuliner</h2>
+                        <p class="pa">
+                            홈페이지 이용자가 홈페이지에 머무를 수 있는 시간을 높일 수 있도록 페이지 로딩 및 스크롤 이동시에 애니메이션 기능을 사용하여
+                            <br>이용자의 눈길을 끌 수 있도록 제작하였습니다.</p>
+                        <p class="pa">사용기술: 마우스 오버, 애니메이션, 구글 맵, form, top버튼 등</p>
+                        <a class="pa" href="./포트폴리오/kuliner_website/index.html" target="_blank">홈페이지이동</a>
+                    </div>
+                </div>
+
+                <div class="port_img_1">
+                    <div class="site_img_1"></div>
+                    <div class="frame_img_1"></div>
+                </div>
+                <div class="port_txt">
+                    <div class="mid_context">
+                        <h2 class="pa">model</h2>
+                        <p class="pa">모델 프로필페이지를 구성했습니다. 처음 CSS3을 배울 때 레이아웃 연습 겸 애니메이션 처리 연습을 위해 제작했습니다.</p>
+                        <p class="pa">사용기술: 카드뒤집기,구글맵</p>
+                        <a class="pa" href="./포트폴리오/people/index.html" target="_blank">홈페이지이동</a>
+                    </div>
+                </div>
+                <div class="port_img_2">
+                    <div class="site_img_2"></div>
+                    <div class="frame_img_2"></div>
+                </div>
+                <div class="port_txt">
+                    <div class="mid_context">
+                        <h2 class="pa">Origin</h2>
+                        <p class="pa">학원에서 처음으로 반응형했던사이트입니다.</p>
+                        <a class="pa" href="./포트폴리오/Origin/index.html" target="_blank">홈페이지이동</a>
+                    </div>
+                </div>
+
+                <div class="port_img_3">
+                    <div class="site_img_3"></div>
+                    <div class="frame_img_3"></div>
+                </div>
+                <div class="port_txt">
+                    <div class="mid_context">
+                        <h2 class="pa">타투</h2>
+                        <p class="pa">
+                            홈페이지 이용자가 홈페이지에 머무를 수 있는 시간을 높일 수 있도록 페이지 로딩 및 스크롤 이동시에 애니메이션 기능을 사용하여
+                            <br>이용자의 눈길을 끌 수 있도록 제작하였습니다.</p>
+                        <p>사용기술: 마우스 오버, 애니메이션, 구글 맵, form, top버튼 등</p>
+                        <a class="pa" href="./포트폴리오/totu/index.html" target="_blank">홈페이지이동</a>
+                    </div>
+                </div>
+
+                <div class="port_img_4">
+                    <div class="site_img_4"></div>
+                    <div class="frame_img_4"></div>
+                </div>
+                <div class="port_txt">
+                    <div class="mid_context">
+                        <h2 class="pa">베이커리</h2>
+                        <p class="pa">베이커리 홈페이지만들어봤습니다.프랜차이즈 카페 커피홀이 베이커리 메뉴를 강화시키며 맛도 비주얼도 훌륭한 디저트,
+                            베이커리 카페로 거듭나고 있다.커피홀, 베이커리 메뉴 차별성으로 고객 만족도 최고입니다</p>
+                        <a class="pa" href="./포트폴리오/bakery/index.html" target="_blank">홈페이지이동</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="all">
+            <div class="wrap">
+                <div class="title">
+                    <h3 class="sa">ALL</h3>
+                </div>
+                <article>
+                    <div class="top">
+                        <div class="cont_box">
+                            <div class="cont_img">
+                                <div class="bot_bl">
+                                    <p>Commpany</p>
+                                    <a class="pa" href="./포트폴리오/20210225_투자회사웹사이트/index.html">바로가기 ▶</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cont_box">
+                            <div class="cont_img">
+                                <div class="bot_bl">
+                                    <p>Wedding</p>
+                                    <a class="pa" href="./포트폴리오/20210306_웨딩웹사이트/index.html">바로가기 ▶</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cont_box">
+                            <div class="cont_img">
+                                <div class="bot_bl">
+                                    <p>Wedding</p>
+                                    <a class="pa" href="./포트폴리오/weding/index.html">바로가기 ▶</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="middle">
+                        <div class="cont_box">
+                            <div class="middle_img">
+                                <div class="bot_bl">
+                                    <p>영화오디션</p>
+                                    <a class="pa" href="./포트폴리오/영화오디션 사이트/index.html">바로가기 ▶</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cont_box">
+                            <div class="middle_img">
+                                <div class="bot_bl">
+                                    <p>세종병원</p>
+                                    <a class="pa" href="./포트폴리오/20210222_병원 웹사이트/index.html">바로가기 ▶</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cont_box">
+                            <div class="middle_img">
+                                <div class="bot_bl">
+                                    <p>캐시미어(의류)</p>
+                                    <a class="pa" href="./포트폴리오/20210224_캐시미어 웹사이트/index.html">바로가기 ▶</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <div class="cont_box">
+                            <div class="bottom_img">
+
+                                <div class="middle_img">
+                                    <div class="bot_bl">
+                                        <p>B&O Play웹</p>
+                                        <a class="pa" href="./포트폴리오/20210313_B&O Play웹/index.html">바로가기 ▶</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cont_box">
+                            <div class="bottom_img">
+                                <div class="bot_bl">
+                                    <p>장산리</p>
+                                    <a class="pa" href="./포트폴리오/20210423_ajax_website/index.html">바로가기 ▶</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cont_box">
+                            <div class="bottom_img">
+                                <div class="bot_bl">
+                                    <p>photo_2</p>
+                                    <a class="pa" href="./포트폴리오/poto_2/index.html">바로가기 ▶</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="wrap">
+            <div class="title">
+                <h3 class="sa">CONTACT</h3>
+            </div>
+            <h2 class="pa">채용하시겠습니까?</h2>
+            <div class="col-md-5">
+                <div class="right-info">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-envelope"></i>tushgns23@nate.com / tushgns23@google.co.kr</a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-phone"></i>+82 10 2123 3115</a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-phone-square"></i>KAKAO ID: 025896</a>
+                        </li>
+                        <li class="pa">
+                            <a href="">
+                                <i class="fa fa-arrow-down"></i>이력서 내려받기</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="top_btn">
+        <a href="#header"><img src="./img/free-icon-corn-4646318.png" alt="">
+            <i class="fas fa-heart"></i>
+        </a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,60 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Prata&family=Roboto:wght@100;300&display=swap');
+*{box-sizing: border-box;font-family: 'Roboto', sans-serif; }
+html, body{margin: 0; padding: 0;}
+h1, h2, h3, h4, h5, h6, p{margin: 0;}
+ul, ol{margin: 0;padding: 0;list-style: none;}
+a{text-decoration: none;}
+
+.sa{font-family: 'Prata', serif;}
+
+#header{width: 100%; height: 80px;overflow: hidden;}
+#header .wrap{width: 1200px; height: 100%; margin: 0 auto; padding: 0 10px; position: relative; }
+#header .wrap .logo{position: absolute; left: 10px; top:50%; transform:translateY(-50%);}
+#header .wrap .logo a{display: block;}
+#header .wrap .logo a img{display: block; height: 76px;}
+
+
+#header nav{text-align: center;}
+#header nav ul{font-size: 0;float: right;}
+#header nav ul li{float: left; margin: 0 15px;}
+#header nav ul li a{display: block; font-size: 14px; line-height: 80px;color: #b6b6b6; position: relative; text-transform: uppercase;}
+#header nav ul li:hover a{color: #111111;}
+#header nav i{color: #b6b6b6;margin: 0 5px 0 0;font-size: 12px;}
+
+#res_menu{display: none;}
+
+
+
+
+footer{width: 100%;background: #ebebeb;padding: 10px 40px;}
+footer .wrap{width: 1200px;margin: 0 auto;}
+footer article{display: flex;justify-content: space-between;}
+
+footer article .left_tt{}
+footer article .left_tt h3{color: #3e3930;font-size: 25px;margin: 0 21px;
+  padding: 10px 0;}
+footer article .left_tt p{margin: 0 21px;
+  padding: 10px 0;}
+
+footer article .center_tt{}
+footer article .center_tt h3{color: #3e3930;font-size: 25px;margin: 0 21px;
+  padding: 10px 0;}
+footer article .center_tt p{margin: 0 21px;
+  padding: 10px 0;}
+
+footer article .right_tt{}
+footer article .right_tt h3{color: #3e3930;font-size: 25px;margin: 0 21px;
+  padding: 10px 0;}
+footer article .right_tt .mail_bx{width:100%; height: 29px; border:1px solid #ff6600; background-color: #fff; border: none; margin: 0 auto; padding: 0 20px; font-size: 0;background: transparent;}
+footer article .right_tt .mail_bx input{width: calc(100% - 50px); height: 100%; border:none; font-size: 20px; vertical-align: top; outline: none;} 
+footer article .right_tt .mail_bx button{width: 50px; height: 100%; border:none; background: transparent; color:#ff6600; font-size: 24px; outline: none; cursor: pointer; vertical-align: top;} 
+footer article .right_tt .icon_part{}
+footer article .right_tt .icon_part ul{}
+footer article .right_tt .icon_part ul li{display: inline-block;padding: 20px 0;}
+footer article .right_tt .icon_part ul li i{margin: 0 9px;padding: 0 10px;}
+
+footer .bottom{width: 100%;height: 25px;background: #000;}
+
+footer .bottom .text{text-align: center;}
+footer .bottom .text p{font-size: 18px;color: #fff;}

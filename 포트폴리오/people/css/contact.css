@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+#main{width: 100%;}
+#main .wrap{width: 1200px;margin: 0 auto;}
+#main .title{padding: 40px 10px;}
+#main .title h2{font-size: 50px;color: #000;}
+
+#main .img{}
+#main .img img{}
+
+
+
+.js_map{width: 400px; height: 300px;}
+
+
+#register{width: 100%; height: auto;padding: 50px 0;}
+#register .wrap{width: 1160px; height: auto; padding: 0 10px; margin: 0 auto; font-size: 0;}
+
+#register .wrap .left {display: inline-block; width: 50%; height: 400px; vertical-align: top; padding: 20px;}
+#register .wrap .left #map{height: 100%;}
+
+#register .wrap .right{display: inline-block; width: 50%; height: 400px; vertical-align: top; padding: 20px;font-size: 16px;}
+.cont{}
+.text h2{font-size: 35px;color: #000;padding: 5px 0;padding: 10px 0;}
+#register .txt{display: flex;flex-wrap: wrap;}
+.right_txt{margin: 0 40px;}
+ .txt h3{font-size: 25px;color: #000;}
+ .txt p{font-size: 16px;color: #000000bf;margin: 10px;}
+
+
+
+.top_btn{position: fixed; right:30px; bottom:30px; cursor: pointer; z-index: 1;}
+.top_btn a{font-size: 50px; color:#ff6600;}

@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+
+.snapshots{}
+.snapshots .frame{width: 960px; margin: 0 auto; padding-top: 20px; text-align: center;}
+.snapshots .frame .origin{display: flex; flex-wrap: wrap;}
+
+.snapshots .frame .origin .sn_box{width: calc(50% - 20px); height: 300px; margin: 0 10px 20px; background-size: cover; background-position: 50% 50%; background-color: #ffffcc;}
+
+.snapshots .frame .origin .sn_box .dark{width: 100%; height: 100%; background-color: rgba(0,0,0,0.5); position: relative; opacity: 0;}
+.snapshots .frame .origin .sn_box .dark h4{position: absolute; top:50%; left:50%; transform: translate(-50%, -50%); color:#fff; font-size: 20px;}
+
+.snapshots .frame .origin .sn_box:hover .dark{opacity: 1; transition: opacity 0.5s;}
+
+.snapshots .frame button{margin-bottom: 40px; width: 160px; line-height: 36px; border:none; background-color: #1f232f; color:#fff; border-radius:6px; cursor: pointer; font-size: 17px;}
+
+/*.snapshots .frame .add{display: flex; flex-wrap: wrap;}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

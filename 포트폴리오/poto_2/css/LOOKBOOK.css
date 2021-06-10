@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+#slickSlide .slick-dotted.slick-slider{
+  margin-bottom: 0;
+}
+
+section#slickSlide{overflow: hidden;width: 80%;margin: 0 auto;}
+section#slickSlide .slider{}
+section#slickSlide .slider .slide{}
+
+section#slickSlide .slider .slide ul.slideShow{}
+section#slickSlide .slider .slide ul.slideShow li[class*="slide_0"]{width: 100%; height: 520px; background-size: cover; background-position: 50%  50%; position: relative;}
+section#slickSlide .slider .slide ul .slide_01{background-image: url(../img/slide1.jpg);}
+section#slickSlide .slider .slide ul .slide_02{background-image: url(../img/slide2.jpg);}
+section#slickSlide .slider .slide ul .slide_03{ background-image: url(../img/slide3.jpg);}
+section#slickSlide .slider .slide ul .slide_04{background-image: url(../img/slide4.jpg);}
+
+#slickSlide .slick-dots li button:before{font-size: 16px; opacity: 1;color: #cfcfcf;}
+#slickSlide .slick-dots{bottom:60px; text-align: center;}
+#slickSlide .slick-prev:before, #slickSlide .slick-next:before{font-size: 36px;}
+#slickSlide .slick-dots li.slick-active button:before{color: #303030;}
+#slickSlide .slick-arrow{z-index: 100; transition: left 1s, right 1s;}  /*화살표와 이미지가 position의 z-index 값이 동일하기 때문에 문서상에서 1) .slick-prev -> 2)슬라이드 이미지 공간 -> 3).slick-next*/
+#slickSlide .slick-prev, #slickSlide .slick-next{width: auto;}
+#slickSlide:hover .slick-prev{left: 25px;}
+#slickSlide:hover .slick-next{right: 25px;}
+.slick-dots{}
+
+
+
+#allow{width: 100%;}
+#allow .wrap{width: 1200px;margin: 0 auto;}
+#allow .wrap .allow_cont_01{display: flex;justify-content: space-between;
+}
+#allow .wrap .text{margin: 0 17px;}
+#allow .wrap .text h2{font-size: 23px;color: #303030;padding: 10px 0;}
+#allow .wrap .text p{font-size: 12px;color: #303030;padding: 10px 0;}
+
+
+

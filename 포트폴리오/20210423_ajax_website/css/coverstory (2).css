@@ -1,0 +1,34 @@
+/*coverstory.css*/
+@charset "utf-8";
+.coverstory{width: 100%; height: auto;}
+.coverstory:after{content:""; display: block;clear: both;}
+.coverstory div{width:100%; height: 300px; background-size: cover; background-position: 50% 50%; float: left;}
+.coverstory div:nth-child(1){background-image: url(../img/cont_05.jpg);}
+.coverstory div:nth-child(2){background-image: url(../img/cont_01.jpg);}
+.coverstory div:nth-child(3){background-image: url(../img/cont_10.jpg);}
+.coverstory div:nth-child(4){background-image: url(../img/cont_11.jpg);}
+.coverstory div:nth-child(5){background-image: url(../img/cont_02.jpg);}
+.coverstory div:nth-child(6){background-image: url(../img/cont_09.jpg);}
+.coverstory div:nth-child(7){background-image: url(../img/cont_04.jpg);}
+.coverstory div:nth-child(8){background-image: url(../img/cont_12.jpg);}
+.coverstory div:nth-child(9){background-image: url(../img/cont_08.jpg);}
+
+
+@media (min-width:768px){
+    .coverstory div{width: 50%;}
+    .coverstory div:nth-child(5){width: 100%;}
+}
+
+@media (min-width:960px){
+    .coverstory div{width: calc(100% / 3); height: 320px;}
+    .coverstory div:nth-child(5){width: calc(100% / 3);}
+}
+
+@media (min-width:1200px){
+    .coverstory div{width: 25%; height: 400px;}
+    .coverstory div:nth-child(1){height: 800px;}
+    .coverstory div:nth-child(3){width: 50%;}
+    .coverstory div:nth-child(5){width: 25%;}
+    .coverstory div:nth-child(8){width: 50%;}
+}
+

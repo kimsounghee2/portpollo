@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+
+.sa{font-family: 'Prata', serif;}
+
+#women{width: 100%;}
+#women .wrap{width: 1200px; margin: 0 auto;}
+#women .title{}
+#women .title{font-size: 30px;color: #323232;}
+#women .cont{display: flex;flex-wrap: wrap;}
+#women .cont .cont_box{width: 25%;padding: 0 10px 20px;margin: 0 auto;}
+#women .cont .cont_box .cont_img{width: 100%;position: relative;height: 375px;background-position: 50% 50%;background-size: cover;}
+/*#women .cont .cont_box .cont_img img{width: 100%;}*/
+#women .cont .cont_box:nth-child(1) .cont_img{background-image: url(../img/gallery-3.jpg);}
+#women .cont .cont_box:nth-child(2) .cont_img{background-image: url(../img/portfolio-9.jpg);}
+#women .cont .cont_box:nth-child(3) .cont_img{background-image: url(../img/portfolio-8.jpg);}
+#women .cont .cont_box:nth-child(4) .cont_img{background-image: url(../img/portfolio-7.jpg);}
+#women .cont .cont_box:nth-child(5) .cont_img{background-image: url(../img/portfolio-6.jpg);}
+#women .cont .cont_box:nth-child(6) .cont_img{background-image: url(../img/portfolio-5.jpg);}
+#women .cont .cont_box:nth-child(7) .cont_img{background-image: url(../img/portfolio-4.jpg);}
+#women .cont .cont_box:nth-child(8) .cont_img{background-image: url(../img/portfolio-3.jpg);}
+#women .cont .cont_box:nth-child(9) .cont_img{background-image: url(../img/portfolio-2.jpg);}
+#women .cont .cont_box:nth-child(10) .cont_img{background-image: url(../img/portfolio-1.jpg);}
+#women .cont .cont_box .dark{width: 100%;height: 100%;background-color: rgba(255, 255, 255, 0.78);position: absolute;top: 0;left: 0;display: flex;justify-content: center;align-items: center;opacity: 0;transition: opacity 0.5s;}
+#women .cont .cont_box .dark span{font-size: 30px;color: #333;}
+#women .cont .cont_box .cont_img:hover .dark{opacity: 1;}
+
+
+.top_btn{position: fixed; right:30px; bottom:30px; cursor: pointer; z-index: 1;}
+.top_btn a{font-size: 50px; color:#ff6600;}
